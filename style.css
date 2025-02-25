@@ -1,0 +1,773 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Scrol bar Y-axis */
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: #c21760;
+    border-radius: 30px;
+}
+/* Nav Section */
+ nav.bar-one{
+    width: 100%;
+background-color: #c21769;
+height: 10vh;
+
+}
+#h3-para{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    line-height: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#bt-header{
+    border-radius: 5px;
+    padding: 15px 35px;
+    background: #c21760;
+    color: white;
+    float: right;
+    margin: 6px 295px;
+position: relative;
+bottom: 63px;
+border: 1px solid white;
+font-weight: bold;
+transition: ease-in-out 0.5s;
+
+}
+#bt-header:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.5s;
+    border: 1px solid black;
+}
+
+nav.bar-two{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 3px 9px 12px;
+    
+}
+
+ .inter-sec h3 {
+    color: #ff0571;
+    font-size: 25px;
+    padding: 0px 100px;
+    position: relative;
+    bottom: 33px;
+ }  
+ .inter-sec img{
+    position: relative;
+    margin: 2px 70px;
+    margin-top: 20px;
+ }
+ .header-section{
+    float: right;
+    margin: 0 150px;
+ }
+ #bt-two{
+    border-radius: 10px;
+    padding: 8px 24px;
+    background: white;
+    color: black;
+position: relative;
+border: 1px solid black;
+font-weight: bold;  
+position: relative;
+bottom: 70px;
+margin: 2px 10px;
+transition: 0.5s ease all;
+cursor: pointer;
+
+
+ }
+ #bt-two:hover{
+    background-color: #ff0571;
+    color: white;
+    transition: 0.5s ease all;
+    border: none;
+ }
+ #bt-three{
+    border-radius: 10px;
+    padding: 8px 24px;
+    background: #ff0571;
+    color: white;
+position: relative;
+font-weight: bold;  
+position: relative;
+bottom: 70px;
+margin: 2px 10px;
+transition: all 0.5 ease-in-out;
+cursor: pointer;
+    transform: scale(1.1);
+    border: none;
+
+
+ }
+ #bt-three:hover{
+    filter: brightness(70%);
+    transition:  all 0.5 ease-in-out;
+    transform: scale(1.2);
+    border: none;
+
+ }
+ 
+ .sec-type{
+    position: relative;
+    bottom: 70px;
+    border: none;
+    margin: 2px 30px;
+}
+/* Hero - Section */
+ .hero-section{
+    width: 100%;
+    background-color: #c9b8c077;
+    height: 70vh;
+    position: relative;  
+} 
+.img-one{
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+.outer-sec{
+    padding: 0px 100px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.under-sec{
+    width: 45%;
+    height: 8.5vh;
+    background-color: white;
+    box-shadow: 0px 1px 15px;
+    border-radius: 10px;
+} 
+ .under-sec input{
+    width: 400px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 0.6em 2em;
+    position: relative;
+    bottom: -8px;
+    font-size: 15px;
+    margin: 6px 10px;
+    top: 0.1rem;
+}
+.under-button button{
+    border-radius: 5px;
+    padding: 12px 12px;
+    background: #ff0571;
+    color: white;
+position: relative;
+font-weight: bold;  
+position: relative;
+margin: 6px 6px;
+border: none;
+left: 26rem;
+bottom: 3.1rem;
+transition: all 0.5s ease-in-out ;
+
+} 
+.under-button button:hover{
+    transition: all 0.5s ease-in-out ;
+    filter: brightness(70%);
+    transform: scale(1.1);
+}
+.engine-type{
+    position: relative;
+top: 180px;
+}
+
+
+/* second section */
+.img-section{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    position: relative;
+    top: 3rem;
+}
+#header{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    padding: 0px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image-header img{
+    background-size: cover;
+}
+.para-container{
+    width: 36%;
+    height: 45vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 12px;
+    margin-left: 10rem;
+    position: relative;
+    bottom: 140px;
+    padding: 0.7em 2em;
+
+}
+.para-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    font-size: 20px;
+}
+.para-container p{
+    position: relative;
+    top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para-container button{
+    border-radius: 5px;
+    padding: 0.7em 2em;
+    background: #ff0571;
+    color: white;
+position: relative;
+font-weight: bold;  
+border: none;
+top: 10px;
+transition: 0.5s   all ease-in-out;
+
+}
+.para-container button:hover{
+    filter: brightness(50%);
+    transform: scale(1.1);
+    transition: 0.5s   all ease-in-out;
+}
+/* Third-section */
+#paragraph{
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top:  28rem;
+}
+#paragraph h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.7em 2em;
+    margin-left: 4rem;
+}
+.flex-container{
+     display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30rem;
+
+}
+.box{
+    height: 200px;
+    width: 300px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+
+}
+.box img{
+    border-radius: 20px;
+    transition: 1s all;
+}
+.box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: 1s all;
+}
+#box1{
+    height: 200px;
+    width: 300px;
+    font-size: 40px;
+    display: flex;
+   overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+
+}
+#box1 img{
+    transition: all 0.5s ease-in-out;
+}
+#box1 img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    filter: brightness(60%);
+    transition: all 0.5s ease-in-out;
+}
+
+#box1:after{
+ content: "Abottabad";
+ position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box2:after{
+    content: "Bahawalpur";
+ position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box3:after{
+    content: "DeraghaziKhan";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box4:after{
+    content: "Gujranwala";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box5:after{
+    content: "Kamoke";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box6:after{
+    content: "Jhelum";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box7:after{
+    content: "Jhelum";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box8:after{
+    content: "Iran";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box9:after{
+    content: "Larkana";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box10:after{
+    content: "Punjab";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box11:after{
+    content: "Sindh";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box12:after{
+    content: "Balochistan";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box13:after{
+    content: "Sindh";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box14:after{
+    content: "Muree";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box15:after{
+    content: "Jhelum";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box16:after{
+    content: "Warsak Dam";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box17:after{
+    content: "Tokyo";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box18:after{
+    content: "Waziristan";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box19:after{
+    content: "Quetta";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+#box20:after{
+    content: "Karachi";
+    position: absolute;
+ left: 10px;
+ bottom: 10px;
+ font-size:18px;
+ font-weight: 900x ;
+ background-color: white;
+border-radius: 20px; 
+padding: 5px 20px;
+}
+/* Forth   Section */
+.heading-sec{
+    width: 50%;
+    padding: 0.7em 2em;
+    margin-left: 4rem;
+    position: relative;
+    top: 4rem;
+}
+.back-border{
+    width:85%;
+    height: 60vh;
+    background-color: #c21760;
+    border-radius: 20px;
+    position: relative;
+    top: 6rem;
+    padding: 0.7em 2em;
+    margin-left: 7rem;
+}
+#child-one{
+position: relative;
+color: white;
+padding: 0.7em 2em;
+top: 2rem;
+font-weight: bold;
+font-size: 26px;
+}
+#child-two{
+position: relative;
+color: white;
+padding: 0.7em 2em;
+width: 400px;
+top: 3rem;
+margin-left: 13rem;
+}
+#child-three{
+    mix-blend-mode: screen;
+    position: relative;
+    bottom: 3.5rem;
+    margin-left: 4rem;
+
+}
+#child-four{
+    float: right;
+    position: relative;
+    bottom: 18rem;
+    left: 80px;
+}
+.button-section{
+    padding: 0.7em 2em;
+    bottom: 2rem;
+    position: relative;
+}
+
+#first-child{
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    background-color: black;
+    color: white;
+    border: none;
+    transition:  all 0.5s  ease-in-out;
+}
+#first-child:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+/* Five section */
+#heading-one{
+    position: relative;
+    top: 10rem;
+}
+#heading-one h2{
+    padding: 0.7em 2em;
+    margin-left: 3.6rem;
+}
+.img-fluid img{
+height: 70vh;
+width: 100%;
+object-fit: cover;   
+}
+.div-container{
+    background-color: white;
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    position: relative;
+    bottom: 6rem;
+    left: 5rem;
+    box-shadow: 0px 2px 12px;
+
+}
+.div-container h1{
+    padding: 0.7em 2em;
+    position: relative;
+     right: 30px;
+    }
+.div-container p{
+    padding: 0.7em 2em;
+    position: relative;
+    bottom: 20px;
+}
+#but-server{
+    color: white;
+    border-radius: 5px;
+    padding: 0.7em 2em;
+    position: relative;
+    left: 2rem;
+    background-color: #ff0571;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+ #but-server:hover{
+    
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    filter: brightness(60%);
+}
+/* Six-section */
+.text-container{
+    padding: 0.7em 2em;
+}
+.text-container-two{
+    padding: 0.7em 2em;
+}
+span{
+    color: #c21769;
+}
+#underline{
+    color: #c21760;
+    text-decoration: underline;
+}
+/* Footer */
+.footer-sec{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    position: relative;
+    top: 10px;
+}
+.footer-sec ul{
+    display: flex;
+    list-style: none;
+    padding: 0.7em 2em;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+.footer-sec ul li{
+    text-decoration: underline;
+    font-weight: bold;
+    border-left: 2px solid black;
+padding-left: 20px;
+transition:  all 0.3s ease-in-out;
+
+}
+.footer-sec ul li:hover{
+    color: #c21769;
+    transition:  all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#x-axis{
+    width: 90%;
+    margin-left: 4rem;
+    position: relative;
+
+margin-left: 4rem;
+position: relative;
+}
+
+/* Footer Second */
+
+.ul-container{
+    width: 100%;
+    height: 70vh;
+    background-color:  white;
+    display: flex;
+   
+}
+.ul-container ul{
+    list-style: none;
+    top: 2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    left: 30rem;
+ padding: 20px;
+}
+
+ #h-two h2{
+    padding: 0.7em 2em;
+    position: relative;
+    bottom: 26rem;
+    color: #ff0571;
+    margin-left: 3rem;
+    cursor: pointer;
+ }
+ #horizantal-line{
+    width: 90%;
+    margin-left: 4rem;
+    position: relative;
+top: 2rem;
+margin-left: 4rem;
+position: relative;
+ }
+ .last-footer{
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    margin-right: 4rem;
+    
+ }
+
+ #child-seven{
+    padding: 0.7em 2em;
+    border-left: 2px solid black;
+    padding-left: 40px;
+    color: #b62222;
+ }
+ #child-six{
+    padding: 0.7em 2em;
+    color: #ff0571;
+ }
+ .last-footer img{
+    position: relative;
+    left: 2.4rem;
+    border-radius: 5px;
+    top: 20px;
+ }
+ /* Loader  */
+
+.load{
+    height: 100vh;
+    width: 100%;
+}
+.load img{
+  position: relative;
+  left: 32rem;
+  top: 13rem;
+}
+
