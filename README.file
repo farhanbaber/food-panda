@@ -1,0 +1,36 @@
+🍔 Food Panda Clone
+
+A || Food Panda Clone || that replicates the basic structure and functionality of the popular food delivery platform | Food Panda |. This project showcases a responsive UI with various features like restaurant listings, food categories, cart functionality, and more.
+
+---
+
+📋 Features
+
+- 🍕 || Restaurant Listings || Browse through different restaurants with their menu items.
+- 🛒 || Cart System || Add and remove items to/from your cart.
+- 🗺️ || Location-based Search || Filter restaurants based on the user's location.
+- 🖥️ || Responsive Design || Mobile and desktop-friendly UI.
+- 💳 || Order Summary || View details of selected items before finalizing an order.
+- 🏠 || Home Page || Featured restaurants, search functionality, and categories.
+- 🍔 || Food Categories || Filter restaurants by cuisine (e.g., Italian, Chinese, etc.)
+
+---
+
+🛠️ Technologies Used
+
+- HTML5 – Structure and layout  
+- CSS3 – For styling, animations, and responsive design  
+- JavaScript (ES6) – For user interactivity and cart functionality  
+- Vercel – Hosting and deployment (optional)
+
+---
+
+ 📂 Project Structure
+
+```bash
+food-panda-clone/
+├── index.html          # Main HTML file for the home page
+├── style.css           # Styling for UI components
+├── script.js           # JavaScript for dynamic functionality (cart, categories, etc.)
+├── assets/             # Images, icons, and other assets
+└── README.md           # Project documentation
